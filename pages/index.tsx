@@ -8,15 +8,15 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Next RTK Template</title>
+				<title>Recipe App</title>
 				<meta
 					name="description"
-					content="Template with next and redux toolkit"
+					content="Recipe app made with Contentful and Next.js"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main></main>
+			<main className="recipe-list">Recipe List</main>
 		</>
 	);
 }
